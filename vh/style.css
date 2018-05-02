@@ -1,0 +1,23 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+/*Banner*/
+.hero {
+  height: 75vh;
+}
+.sub-hero {
+  height: 25vh;
+  background: linear-gradient(115deg, #4e54c8, #8f94fb);
+}
+
+.hero, .sub-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero h2 {
+	font-size: 5vmax;
+}

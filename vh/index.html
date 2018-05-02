@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>::Rem Demo::</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+<header id="header" class="grid">
+    <h1 class="logo">logo</h1>
+    <ul class="header__menu">
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </header>
+
+  <section class="hero">
+    <h2>Hero Title</h2>
+  </section>
+<section class="sub-hero">
+  <h3>I'm the Subhero</h3>
+</section>
+<script>
+	var person = {
+ name : {
+  first: 'Bob',
+  last: 'Smith'
+},
+  age: 32,
+  gender: 'male',
+  interests: ['music', 'skiing'],
+  bio: function() {
+    alert(this.name[0] + ' ' + this.name[1] + ' is ' + this.age + ' years old. He likes ' + this.interests[0] + ' and ' + this.interests[1] + '.');
+  },
+  greeting: function() {
+    alert('Hi! I\'m ' + this.name[0] + '.');
+  }
+};
+person.greeting();
+</script>
+</body>
+</html>
